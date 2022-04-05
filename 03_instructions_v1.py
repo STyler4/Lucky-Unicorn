@@ -39,3 +39,5 @@ played_before = yes_no("Have you played this game before? ")
 
 if played_before == "No":
     instructions()
+else:
+    print("Program continues")
